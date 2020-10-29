@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/styles.css" />
+
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <title>Navbar</title>
+  </head>
+  <body>
+    <div class="navbar-menu-wrapper">
+      <div class="navbar-container">
+        <nav
+          class="navbar fixed-top navbar-expand-lg navbar-dark custom-navbar-color"
+        >
+          <div class="spread-items">
+            <a class="navbar-brand" href="#">
+              <img
+                src="/assets/logo.png"
+                width="90"
+                height="50"
+                alt=""
+                loading="lazy"
+              />
+            </a>
+            <div class="desktop-nav-links">
+              <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="custom-nav-item">
+                  <a class="custom-nav-link" href="#">
+                    SHOP
+                  </a>
+                  <div class="custom-dropdown-content">
+                    <div class="custom-dropdown-category">
+                      <div class="custom-dropdown-menu-header">
+                        COLLECTIONS
+                      </div>
+                      <div>
+                        <ul>
+                          <li><a href="#">Collection 1</a></li>
+                          <li><a href="#">Collection 2</a></li>
+                          <li><a href="#">Collection 3</a></li>
+                          <li><a href="#">Made to Order</a></li>
+                          <li><a href="#">Shop All</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="custom-dropdown-category">
+                      <div class="custom-dropdown-menu-header">PRODUCTS</div>
+                      <div>
+                        <ul>
+                          <li><a href="#">Accessories</a></li>
+                          <li><a href="#">Clothing</a></li>
+                          <li><a href="#">Shoes</a></li>
+                          <li><a href="#">Masks</a></li>
+                          <li><a href="#">Shop All</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="custom-dropdown-category">
+                      <div class="custom-dropdown-menu-header">MATERIAL</div>
+                      <div>
+                        <ul>
+                          <li><a href="#">Flex</a></li>
+                          <li><a href="#">Foil</a></li>
+                          <li><a href="#">Latex</a></li>
+                          <li><a href="#">Sock</a></li>
+                          <li><a href="#">Shop All</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="custom-nav-item">
+                  <a class="custom-nav-link active" href="#">ABOUT US</a>
+                </li>
+                <li class="custom-nav-item">
+                  <a class="custom-nav-link" href="#">GET IN TOUCH</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="spread-items">
+            <div class="search-and-actions">
+              <div class="search-wrapper">
+                <div class="has-search">
+                  <span class="fa fa-search form-control-feedback"></span>
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Search 'Tote bag' Here"
+                  />
+                </div>
+                <div class="message">WE SHIP WORLDWIDE</div>
+              </div>
+              <div>
+                <ul class="navbar-actions mr-2">
+                  <li class="nav-item dropdown currency-dropdown">
+                    <a
+                      class="nav-item nav-link dropdown-toggle"
+                      href="#"
+                      id="bd-versions"
+                      data-toggle="dropdown"
+                      aria-haspopup="true"
+                      aria-expanded="false"
+                    >
+                      <img
+                        src="/assets/country_logo.png"
+                        alt="country-logo"
+                        class="mr-1"
+                      />USD
+                    </a>
+                    <div
+                      class="dropdown-menu dropdown-menu-md-right"
+                      aria-labelledby="bd-versions"
+                    >
+                      <a class="dropdown-item active" href="#">Rs.</a>
+                      <a class="dropdown-item" href="#">USD</a>
+                    </div>
+                  </li>
+                  <li
+                    class="mobile-menu-icons ham-menu nav-item nav-other-icons-color"
+                  >
+                    <i class="fa fa-bars" aria-hidden="true"></i>
+                  </li>
+                  <li
+                    class="mobile-menu-icons shopping-bag nav-item nav-other-icons-color"
+                  >
+                    <span class="show-hide-badge">
+                      <span class="badge custom-badge">1</span>
+                      <i class="fa fa-shopping-bag" aria-hidden="true"></i>
+                    </span>
+                    <div class="cart-dropdown-menu">
+                      <div class="view-shopping-bag-action">
+                        <button
+                          class="btn btn-primary btn-block mt-3 text-uppercase"
+                        >
+                          View your shopping bag
+                        </button>
+                      </div>
+                    </div>
+                  </li>
+                  <li
+                    class="mobile-menu-icons user-profile nav-item nav-other-icons-color"
+                  >
+                    <span class="show-hide-profile-dropdown">
+                      <i class="fa fa-user" aria-hidden="true"></i
+                    ></span>
+                    <div class="profile-dropdown-menu">
+                      <div>Profile</div>
+                      <div>Logout</div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <div class="blank-menu-container"></div>
+      <!-- mobiel menu html -->
+      <div class="mobile-menu-container closed">
+        <div class="mobile-menu-wrapper pt-5">
+          <div class="text-right">
+            <button
+              type="button"
+              class="close mobile-menu-close"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div>
+            <div>
+              <div class="main-menu-item text-uppercase">Shop</div>
+              <div class="mobile-menu-list">
+                <button class="mobile-menu-accordion">Collections</button>
+                <div class="mobile-menu-panel">
+                  <ul>
+                    <li>link 1</li>
+                    <li>link 2</li>
+                    <li>link 3</li>
+                  </ul>
+                </div>
+                <button class="mobile-menu-accordion">Products</button>
+                <div class="mobile-menu-panel">
+                  <ul>
+                    <li>link 1</li>
+                    <li>link 2</li>
+                    <li>link 3</li>
+                  </ul>
+                </div>
+                <button class="mobile-menu-accordion">Materials</button>
+                <div class="mobile-menu-panel">
+                  <ul>
+                    <li>link 1</li>
+                    <li>link 2</li>
+                    <li>link 3</li>
+                  </ul>
+                </div>
+                <button class="mobile-menu-noaccordion">
+                  <a href="https://twitter.com" target="_blank">Show All</a>
+                </button>
+              </div>
+            </div>
+            <div class="main-menu-item text-uppercase pt-3 pb-3">
+              <div>About Us</div>
+            </div>
+            <div>
+              <div class="main-menu-item text-uppercase">Get in touch</div>
+              <div class="mobile-menu-list">
+                <button class="mobile-menu-accordion">Customer Support</button>
+                <div class="mobile-menu-panel">
+                  <ul>
+                    <li>
+                      <a href="https://twitter.com" target="_blank">FAQ</a>
+                    </li>
+                    <li>
+                      <a href="https://twitter.com" target="_blank"
+                        >Sizing Guide</a
+                      >
+                    </li>
+                    <li>
+                      <a href="https://twitter.com" target="_blank"
+                        >Shipping Delivery</a
+                      >
+                    </li>
+                    <li>
+                      <a href="https://twitter.com" target="_blank"
+                        >Returs And Exchanges</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+                <button class="mobile-menu-noaccordion">Write to Us</button>
+              </div>
+            </div>
+            <div class="menu-footer-change-country mt-5 clearfix">
+              <span>Ship to</span>
+              <span class="ml-4"
+                ><img
+                  src="/assets/country_logo.png"
+                  alt="country-logo"
+                  class="mr-1"
+                />USA</span
+              >
+              <span><a href="#">Change Country</a></span>
+            </div>
+            <div class="social-icons mt-4 mb-2">
+              <a href="#">
+                <span class="fa fa-facebook"></span>
+              </a>
+              <a href="#">
+                <span class="fa fa-instagram"></span>
+              </a>
+              <a href="#">
+                <span class="fa fa-twitter"></span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>other content</div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      let items = [
+        {
+          id: 794864229,
+          properties: {},
+          quantity: 1,
+          variant_id: 794864229,
+          key: "794864229:03af7a8cb59a4c3c45595c76fa8cb53c",
+          title: "Red Rain Coat - Small",
+          price: 12900,
+          line_price: 12900,
+          final_price: 12900,
+          final_line_price: 12900,
+          sku: null,
+          grams: 0,
+          vendor: "Shopify",
+          taxable: true,
+          product_id: 388319916,
+          product_has_only_default_variant: false,
+          gift_card: false,
+          url: "/products/red-rain-coat?variant=794864229",
+          featured_image: {
+            url:
+              "http://cdn.shopify.com/s/files/1/0040/7092/products/red-rain-coat.jpeg?v=1402604893",
+            aspect_ratio: 1.0,
+            alt: "Red rain coat with a hood",
+          },
+          image:
+            "http://cdn.shopify.com/s/files/1/0040/7092/products/red-rain-coat.jpeg?v=1402604893",
+          handle: "red-rain-coat",
+          requires_shipping: true,
+          product_title: "Red Rain Coat",
+          product_description: "A bright red rain coat for rainy days!",
+          product_type: "Coat",
+          variant_title: "Red",
+          variant_options: ["Red"],
+          options_with_values: [
+            {
+              name: "Color",
+              value: "Red",
+            },
+          ],
+        },
+        {
+          id: 794864101,
+          properties: {},
+          quantity: 2,
+          variant_id: 794864101,
+          key: "794864101:816a55d9a53cd82281f8fdcfe967db14",
+          title: "Gray Fedora",
+          price: 2650,
+          line_price: 0,
+          final_price: 2650,
+          final_line_price: 5300,
+          sku: null,
+          grams: 0,
+          vendor: "Shopify",
+          taxable: true,
+          product_id: 388319892,
+          product_has_only_default_variant: false,
+          gift_card: false,
+          url: "/products/gray-fedora?variant=794864101",
+          featured_image: {
+            url:
+              "http://cdn.shopify.com/s/files/1/0040/7092/products/gray-fedora.jpeg?v=1402604885",
+            aspect_ratio: 1.0,
+            alt: "Gray fedora made of straw",
+          },
+          image:
+            "http://cdn.shopify.com/s/files/1/0040/7092/products/gray-fedora.jpeg?v=1402604885",
+          handle: "gray-fedora",
+          requires_shipping: true,
+          product_title: "Gray Fedora",
+          product_description: "A gray hat for looking cool!",
+          product_type: "Hats",
+          variant_title: "Gray",
+          variant_options: ["Gray"],
+          options_with_values: [
+            {
+              name: "Color",
+              value: "Gray",
+            },
+          ],
+          line_level_discount_allocations: [
+            {
+              amount: 500,
+              discount_application: {
+                type: "script",
+                key: "a8a3d7aa-7d00-4827-a2e1-b03c32160bf2",
+                title: "5 Dollar Off",
+                description: null,
+                value: "5.00",
+                created_at: "2019-04-10T20:49:10.023Z",
+                value_type: "fixed_amount",
+                allocation_method: "one",
+                target_selection: "explicit",
+                target_type: "line_item",
+                total_allocated_amount: 500,
+              },
+            },
+          ],
+        },
+      ];
+      (function () {
+        $(".show-hide-badge").click((event) => {
+          event.stopPropagation();
+          let cartCount = +$(".custom-badge").text();
+          cartCount > 0 && $(".cart-dropdown-menu")[0].classList.toggle("show");
+          $(".profile-dropdown-menu")[0].classList.remove("show");
+        });
+
+        $(".show-hide-profile-dropdown").click((event) => {
+          event.stopPropagation();
+          $(".profile-dropdown-menu")[0].classList.toggle("show");
+          $(".cart-dropdown-menu")[0].classList.remove("show");
+        });
+
+        // ham menu click
+        var menu = document.getElementsByClassName("ham-menu");
+        menu[0].addEventListener("click", function () {
+          var container = document.getElementsByClassName(
+            "mobile-menu-container"
+          );
+          container[0].classList.toggle("closed");
+          container[0].classList.toggle("opened");
+        });
+
+        // menu accord
+        let acc = $(".mobile-menu-accordion");
+        for (let item of acc) {
+          $(item).click(() => {
+            item.classList.toggle("active");
+            var panel = item.nextElementSibling;
+            if (panel.style.maxHeight) {
+              panel.style.maxHeight = null;
+            } else {
+              panel.style.maxHeight = panel.scrollHeight + "px";
+            }
+          });
+        }
+
+        var close = document.getElementsByClassName("mobile-menu-close");
+        close[0].addEventListener("click", function () {
+          var container = document.getElementsByClassName(
+            "mobile-menu-container"
+          );
+          container[0].classList.toggle("closed");
+          container[0].classList.toggle("opened");
+        });
+
+        $(window).resize(function () {
+          var viewportWidth = $(window).width();
+          if (viewportWidth > 992) {
+            var container = document.getElementsByClassName(
+              "mobile-menu-container"
+            );
+            if (container[0].classList.contains("opened")) {
+              container[0].classList.add("closed");
+            }
+          }
+        });
+
+        $(window).click(function () {
+          //Hide the menus if visible
+          $(".cart-dropdown-menu")[0].classList.remove("show");
+          $(".profile-dropdown-menu")[0].classList.remove("show");
+        });
+
+        $(".mobile-menu-container").css({ top: $("nav").innerHeight() });
+        $(".custom-dropdown-content").css({
+          top: $("nav").innerHeight() - 44,
+        });
+        $(".blank-menu-container").css({ height: $("nav").innerHeight() });
+        $(window).resize(function () {
+          $(".mobile-menu-container").css({ top: $("nav").innerHeight() });
+          $(".custom-dropdown-content").css({
+            top: $("nav").innerHeight() - 44,
+          });
+          $(".blank-menu-container").css({ height: $("nav").innerHeight() });
+        });
+
+        function addToCartList(items) {
+          let cartHtmlString = "";
+          items.forEach((element) => {
+            cartHtmlString =
+              cartHtmlString +
+              `<div class="cart-dropdown-item"><div class="cart-item-image mr-2"><img src=${element.featured_image.url} /></div><div class="cart-item-name-price"><div class="name">${element.title}</div></div></div>`;
+          });
+          $(cartHtmlString).insertBefore(".view-shopping-bag-action");
+        }
+
+        addToCartList(items);
+      })();
+    </script>
+  </body>
+</html>

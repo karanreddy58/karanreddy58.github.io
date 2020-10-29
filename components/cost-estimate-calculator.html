@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="shipping-calculator">
+      <h3>Get shipping estimates</h3>
+
+      <div>
+        <p class="field">
+          <label for="address_country">Country</label>
+          <select id="address_country" name="address[country]">
+            <option>adcasdc</option>
+          </select>
+        </p>
+        <p class="field" id="address_province_container" style="display: none;">
+          <label for="address_province" id="address_province_label"
+            >Province</label
+          >
+          <select id="address_province" name="address[province]">
+            <option>adcasdc</option>
+          </select>
+        </p>
+        <p class="field">
+          <label for="address_zip">Zip/Postal Code</label>
+          <input type="text" id="address_zip" name="address[zip]" />
+        </p>
+        <p class="field">
+          <input type="button" class="get-rates btn button" value="estimate" />
+        </p>
+      </div>
+
+      <div id="wrapper-response"></div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/styles.css" />
+
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <title>signin-signup</title>
+  </head>
+  <body>
+    <div class="signin-signup-container">
+      <div class="signin-signup-section">
+        <div
+          class="signin-signup-tab tab-title border-bottom text-center text-uppercase"
+        >
+          <div class="signin-tab active">I already have an account</div>
+          <div class="signup-tab">create account</div>
+        </div>
+        <div class="container">
+          <div class="signin-signup-contact mt-0">
+            <div class="row">
+              <div class="col-12 col-md-6 border-right-desktop">
+                <div class="signin-tab-desktop d-none">
+                  I already have an account
+                </div>
+                <div class="login">
+                  <div class="saved-login">
+                    <div class="form-message mb-4">
+                      Signing in or creating an account will enable you to track
+                      your online orders and access your purchase orders,
+                      receipts and more easily. It will also help in quick
+                      checkout!
+                    </div>
+                    <div>
+                      <form>
+                        <div class="form-row mb-3">
+                          <div class="col-md-12 mb-1">
+                            <input
+                              type="text"
+                              class="form-control is-valid"
+                              placeholder="Email Address *"
+                              required
+                            />
+                            <!-- <div class="valid-feedback">
+                              Looks good!
+                            </div> -->
+                          </div>
+                          <div class="col-md-12 mb-1">
+                            <input
+                              type="email"
+                              class="form-control is-valid"
+                              placeholder="Password*"
+                              required
+                            />
+                            <!-- <div class="valid-feedback">
+                              Looks good!
+                            </div> -->
+                          </div>
+                          <div class="col-md-12">
+                            <div class="row">
+                              <div class="col-6 text-danger">* required</div>
+                              <div class="col-6 text-right">
+                                <button
+                                  class="forgot-password btn btn-link p-0"
+                                >
+                                  forgot password
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <button
+                          class="btn btn-block btn-primary btn-lg"
+                          type="submit"
+                        >
+                          LOGIN
+                        </button>
+                        <button
+                          class="btn btn-block btn-primary btn-lg"
+                          type="submit"
+                        >
+                          LOGIN VIA GOOGLE
+                        </button>
+                      </form>
+                    </div>
+                  </div>
+                  <div class="forgot-login" style="display: none">
+                    <div class="bold mb-2">
+                      Reset your password
+                    </div>
+                    <div class="form-message mb-3">
+                      We will send you an email to reset your password.
+                    </div>
+                    <div>
+                      <form>
+                        <div class="form-row mb-3">
+                          <div class="col-md-12 mb-1">
+                            <input
+                              type="text"
+                              class="form-control is-valid"
+                              placeholder="Email Address *"
+                              required
+                            />
+                            <!-- <div class="valid-feedback">
+                              Looks good!
+                            </div> -->
+                          </div>
+
+                          <div class="col-md-12">
+                            <div class="row">
+                              <div class="col-6 text-danger"></div>
+                              <div class="col-6 text-right">
+                                <button
+                                  class="forgot-password btn btn-link p-0"
+                                >
+                                  goto login
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <button
+                          class="btn btn-block btn-primary btn-lg"
+                          type="submit"
+                        >
+                          SUBMIT
+                        </button>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6">
+                <div class="signup-tab-desktop d-none">create account</div>
+                <div class="signup d-none">
+                  <div class="form-message mb-4">
+                    Signing in or creating an account will enable you to track
+                    your online orders and access your purchase orders, receipts
+                    and more easily. It will also help in quick checkout!
+                  </div>
+                  <div>
+                    <form>
+                      <div class="form-row mb-3">
+                        <div class="col-md-12 mb-1">
+                          <input
+                            type="text"
+                            class="form-control is-valid"
+                            placeholder="Email Address *"
+                            required
+                          />
+                          <!-- <div class="valid-feedback">
+                            Looks good!
+                          </div> -->
+                        </div>
+                        <div class="col-md-12 mb-1">
+                          <input
+                            type="email"
+                            class="form-control is-valid"
+                            placeholder="Password*"
+                            required
+                          />
+                          <!-- <div class="valid-feedback">
+                            Looks good!
+                          </div> -->
+                        </div>
+                      </div>
+                      <button
+                        class="btn btn-block btn-primary btn-lg"
+                        type="submit"
+                      >
+                        SIGNUP
+                      </button>
+                      <button
+                        class="btn btn-block btn-primary btn-lg"
+                        type="submit"
+                      >
+                        SIGNUP VIA GOOGLE
+                      </button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="title guest-title border-top border-bottom text-center text-uppercase"
+        >
+          continue as guest
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 offset-md-2">
+              <div class="signin-signup-contact mt-2">
+                <div>
+                  <form>
+                    <div class="form-row">
+                      <div class="col-md-12 mb-1">
+                        <input
+                          type="text"
+                          class="form-control is-valid"
+                          placeholder="Email Address or Phone Number"
+                          required
+                        />
+                        <div class="valid-feedback">Looks good!</div>
+                      </div>
+                    </div>
+                    <div class="keep-me-up-to-date form-check mb-2">
+                      <input
+                        class="form-check-input"
+                        type="checkbox"
+                        value=""
+                        id="defaultCheck1"
+                      />
+                      <label class="form-check-label" for="defaultCheck1">
+                        Keep me up to date with news and offers
+                      </label>
+                    </div>
+                    <button
+                      class="btn btn-block btn-outline-secondary btn-lg"
+                      type="submit"
+                    >
+                      PROCEED TO CHECKOUT
+                    </button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+    <script src="/main.js"></script>
+    <script>
+      $(document).ready(() => {
+        $(".signin-tab").click(() => {
+          $(".signin-tab")[0].classList.add("active");
+          $(".signup-tab")[0].classList.remove("active");
+          $(".signin-signup-contact .login")[0].classList.remove("d-none");
+          $(".signin-signup-contact .signup")[0].classList.add("d-none");
+        });
+        $(".signup-tab").click(() => {
+          $(".signin-tab")[0].classList.remove("active");
+          $(".signup-tab")[0].classList.add("active");
+          $(".signin-signup-contact .signup")[0].classList.remove("d-none");
+          $(".signin-signup-contact .login")[0].classList.add("d-none");
+        });
+        let width = $(window).width();
+        if (width < 768) {
+          $(".signin-tab-desktop").addClass("d-none");
+          $(".signup-tab-desktop").addClass("d-none");
+          $(".signup").addClass("d-none");
+        } else {
+          $(".signin-tab-desktop").removeClass("d-none");
+          $(".signup-tab-desktop").removeClass("d-none");
+          $(".signup").removeClass("d-none");
+        }
+        $(document).resize(() => {
+          let width = $(window).width();
+          if (width > 768) {
+            $(".signin-tab-desktop").addClass("d-none");
+            $(".signup-tab-desktop").addClass("d-none");
+            $(".signup").addClass("d-none");
+          } else {
+            $(".signin-tab-desktop").removeClass("d-none");
+            $(".signup-tab-desktop").removeClass("d-none");
+            $(".signup").removeClass("d-none");
+          }
+        });
+        // forgot password
+        $(".forgot-password").click(() => {
+          $(".saved-login").toggle();
+          $(".forgot-login").toggle();
+        });
+      });
+    </script>
+  </body>
+</html>

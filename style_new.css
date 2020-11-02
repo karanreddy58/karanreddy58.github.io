@@ -3565,6 +3565,27 @@ ul.navbar-actions li > a {
 }
 
 /* new collection - look book */
+.collection-lookbook .full-banner {
+  background: url('/assets/banner.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 600px;
+  width: 100%;
+}
+.full-banner {
+  position: relative;
+}
+.full-banner .bottom {
+  text-align: center;
+  position: absolute;
+  bottom: 100px;
+  max-width: 600px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  color: #fff;
+  padding: 10px;
+}
 .collection-lookbook .banner-title {
   font-weight: bold;
   font-size: 24px;
@@ -3572,6 +3593,19 @@ ul.navbar-actions li > a {
 .collection-lookbook .banner-action {
   color: #0000ff;
   font-weight: bold;
+  position: absolute;
+  right: 30px;
+  top: 10px;
+}
+@media (max-width: 768px) {
+  .collection-lookbook .banner-action {
+    top: unset;
+    bottom: 30px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+  } 
 }
 .second-section .title {
   padding-top: 10px;
